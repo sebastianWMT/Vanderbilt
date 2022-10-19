@@ -71,7 +71,7 @@ public class base {
 	public static AndroidDriver<AndroidElement> cloudCapabilities(String appName) throws IOException, InterruptedException
 	{
 	
-		FileInputStream  fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\WMT\\KentuckyAndroidApp\\global.properties");
+		FileInputStream  fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\WMT\\Vanderbilt\\global.properties");
 		Properties prop=new Properties();
 		prop.load(fis);
 		
